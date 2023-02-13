@@ -1,10 +1,4 @@
-/* DEBAG */
-/* HEADER ************************>>>>>
-**************************************/
-.header {
-    background-color: #2c3e50 ;
-}
-
+/* COMMON >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 h2 {
     font-size: 30px;
 }
@@ -18,13 +12,26 @@ h1 {
 .ms-input {
     border: white;
 }
+.circle {
+    border: solid white .0625rem;
+    border-radius: 100px;
+    padding: 5px;
+    width: 40px;
+}
+/* COMMON >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* HEADER ************************>>>>>
+**************************************/
+.header {
+    background-color: #2c3e50 ;
+}
 /* HEADER **************************>>>>
 ***************************************/
 
 /* MAIN ****************************>>>>
 ***************************************/
 
-/* START**************************** */
+/* START****************/
 .hero {
     background-color: #1abc9c;
     color: white;
@@ -32,36 +39,32 @@ h1 {
 .img-1 {
     width: 14.375rem;
 }
-/* START**************************** */
+/* START***************/
 
-/* PORTFOLIO *************************/
+/* PORTFOLIO **********/
 .portfolio {
     background-color: aqua;
 }
-/* .info .row div {
-    border: solid 1px;
-} */
-/* PORTFOLIO *************************/
+/* PORTFOLIO *********/
 
-/* ABOUT *************************/
+/* ABOUT *************/
 .about {
     background-color: #1abc9c;
     color: white;
 }
-/* ABOUT *************************/
+/* ABOUT ************/
 
-/* MAIN ****************************>>>>
-***************************************/
+/* INFO *************/
 .info {
     background-color: #3a546d;
     color: white;
 }
-.circle {
-    border: solid white .0625rem;
-    border-radius: 100px;
-    padding: 5px;
-    width: 40px;
-}
+/* INFO ************/
+
+/* MAIN ****************************>>>>
+***************************************/
+/* FOOTER ****************************>>>>
+***************************************/
 footer a {
     color: #1abc9c;
     text-decoration: none;
@@ -71,3 +74,5 @@ footer > div:last-child {
     color: white;
     font-size: .625rem;
 }
+/* FOOTER ****************************>>>>
+***************************************/
