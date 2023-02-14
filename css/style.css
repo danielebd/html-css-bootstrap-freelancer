@@ -14,9 +14,26 @@ h1 {
 }
 .circle {
     border: solid white .0625rem;
-    border-radius: 100px;
-    padding: 5px;
-    width: 40px;
+    border-radius: 50px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+}
+.ms-bar::after, .ms-bar::before {
+    content: "";
+    display: inline-block;
+    height: .1875rem;
+    background-color: black;
+    max-width: 9.375rem;
+    width: 30%;
+}
+.ms-bar-green::after, .ms-bar-green::before {
+    content: "";
+    display: inline-block;
+    height: .1875rem;
+    background-color:white;
+    max-width: 9.375rem;
+    width: 30%;
 }
 /* COMMON >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
